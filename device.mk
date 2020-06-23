@@ -15,6 +15,12 @@
 $(call inherit-product, vendor/oneplus/oneplus8t/oneplus8t-vendor.mk)
 $(call inherit-product, device/oneplus/oneplus8/device.mk)
 
+# Biometrics
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fod.pos.x=438 \
+    ro.fod.pos.y=1822 \
+    ro.fod.size=204
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus8t
