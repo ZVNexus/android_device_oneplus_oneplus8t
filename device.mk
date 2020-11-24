@@ -19,5 +19,9 @@ $(call inherit-product, device/oneplus/oneplus8/device.mk)
 PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/oneplus8t
 
+# Overlays
+PRODUCT_PACKAGES += \
+    OnePlus8TFrameworks
+
 # Virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
