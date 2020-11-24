@@ -17,5 +17,8 @@ include device/oneplus/oneplus8/BoardConfig.mk
 # OTA
 TARGET_OTA_ASSERT_DEVICE := oneplus8t
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 7516192768
+
 # Properties
 TARGET_SYSTEM_PROP := device/oneplus/oneplus8/system.prop
