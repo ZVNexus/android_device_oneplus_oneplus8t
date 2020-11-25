@@ -23,5 +23,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     OnePlus8TFrameworks
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
